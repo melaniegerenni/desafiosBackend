@@ -1,0 +1,56 @@
+[
+	{
+		"id": 1,
+		"title": "Zapatos",
+		"description": "Zapatos de charol",
+		"price": 5000,
+		"thumbnail": "/",
+		"code": 1234,
+		"stock": 40
+	},
+	{
+		"id": 2,
+		"title": "Zapatos",
+		"description": "Zapatos de gamuza",
+		"price": 5000,
+		"thumbnail": "/",
+		"code": 1235,
+		"stock": 30
+	},
+	{
+		"id": 3,
+		"title": "Cartera",
+		"description": "Cartera ecocuero",
+		"price": 4000,
+		"thumbnail": "/",
+		"code": 1222,
+		"stock": 25
+	},
+	{
+		"id": 4,
+		"title": "Cinturon",
+		"description": "Cinturon hombre",
+		"price": 2000,
+		"thumbnail": "/",
+		"code": 2828,
+		"stock": 25
+	},
+	{
+		"id": 5,
+		"title": "Cinturon",
+		"description": "Cinturon mujer",
+		"price": 2000,
+		"thumbnail": "/",
+		"code": 2829,
+		"stock": 25
+	},
+	{
+		"id": 6,
+		"title": "Sombrero",
+		"description": "Sombrero negro",
+		"price": 1500,
+		"thumbnail": "/",
+		"code": 2309,
+		"stock": 30
+	}
+]
