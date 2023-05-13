@@ -1,0 +1,79 @@
+[
+	{
+		"id": 1,
+		"title": "Zapatos",
+		"description": "Zapatos de charol",
+		"code": 1234,
+		"price": 5000,
+		"status": true,
+		"stock": 40,
+		"category": "zapatos",
+		"thumbnail": "/"
+	},
+	{
+		"id": 2,
+		"title": "Zapatos",
+		"description": "Zapatos de gamuza rosa",
+		"code": 1235,
+		"price": 7000,
+		"status": true,
+		"stock": 20,
+		"category": "zapatos",
+		"thumbnail": "/"
+	},
+	{
+		"id": 3,
+		"title": "Cartera",
+		"description": "Cartera ecocuero",
+		"code": 1222,
+		"price": 4500,
+		"status": true,
+		"stock": 20,
+		"category": "carteras",
+		"thumbnail": "/"
+	},
+	{
+		"id": 4,
+		"title": "Cinturon",
+		"description": "Cinturon hombre",
+		"code": 2828,
+		"price": 2000,
+		"status": true,
+		"stock": 25,
+		"category": "cinturones",
+		"thumbnail": "/"
+	},
+	{
+		"id": 5,
+		"title": "Cinturon",
+		"description": "Cinturon mujer",
+		"code": 2829,
+		"price": 2000,
+		"status": true,
+		"stock": 25,
+		"category": "cinturones",
+		"thumbnail": "/"
+	},
+	{
+		"id": 6,
+		"title": "Sombrero",
+		"description": "Sombrero negro",
+		"code": 2309,
+		"price": 1500,
+		"status": true,
+		"stock": 30,
+		"category": "sombreros",
+		"thumbnail": "/"
+	},
+	{
+		"id": 7,
+		"title": "Mochila",
+		"description": "Mochila gabardina",
+		"code": 9876,
+		"price": 7000,
+		"status": true,
+		"stock": 30,
+		"category": "mochilas",
+		"thumbnail": "/"
+	}
+]
