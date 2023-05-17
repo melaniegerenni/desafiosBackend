@@ -1,0 +1,13 @@
+<div>
+  <h1>Perfil</h1>
+  <div>
+    <p>Nombre: {{user.first_name}}</p>
+    <p>Apellido: {{user.last_name}}</p>
+    <p>Email: {{user.email}}</p>
+    <p>Edad: {{user.age}}</p>
+    <p>Rol: {{user.role}}</p>
+  </div>
+  <form action="/sessions/logout" method="GET">
+    <button type="submit">Logout</button>
+  </form>
+</div>
