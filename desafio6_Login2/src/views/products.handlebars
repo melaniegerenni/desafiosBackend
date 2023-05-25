@@ -1,0 +1,33 @@
+<div>
+  <h1 class="d-inline">Bienvenido/a {{first_name}}!</h1>
+  <span><i>({{role}})</i></span>
+  <div class="d-flex">
+    <a href="/profile"><button>Profile</button></a>
+    <a href="/sessions/logout"><button>Logout</button></a>
+  </div>
+  <h2>Productos</h2>
+  <div class="container-fluid row">
+    {{#each docs}}
+      <div class="col col-4 p-3">
+        <div>
+          <h4>{{this.title}}</h4>
+          <p>{{this.description}}</p>
+          <p>${{this.price}}</p>
+        </div>
+        <div>
+          <button id={{this._id}}>Add to cart</button>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+  <div>
+    {{#if hasPrevPage}}
+      <a href={{prevLink}}>Anterior</a>
+    {{/if}}
+    {{#if hasNextPage}}
+      <a href={{nextLink}}>Siguiente</a>
+    {{/if}}
+  </div>
+</div>
+
+<script src="products.js"></script>
