@@ -1,0 +1,11 @@
+<div>
+ <h1>Carrito</h1>
+  <ul>
+    {{#each products}}
+      <li>{{this.product.title}}: {{this.quantity}}</li>
+    {{/each}}
+  </ul>
+  <form action="/api/carts/{{cid}}/purchase" method="post">
+    <button type="submit">Checkout</button>
+  </form>
+</div>
